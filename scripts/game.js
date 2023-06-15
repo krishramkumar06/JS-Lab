@@ -73,7 +73,7 @@ function answerCheckButton() {
 
 }
 // timer code
-let timeleft = 20;
+let timeleft = 90;
 let downloadTimer = setInterval(function () {
     if (timeleft <= 0) {
         clearInterval(downloadTimer);
